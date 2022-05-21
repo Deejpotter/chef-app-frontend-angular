@@ -19,11 +19,13 @@ import {MatSelectModule} from '@angular/material/select';
 import {MatRadioModule} from '@angular/material/radio';
 import {ReactiveFormsModule} from '@angular/forms';
 import { SidenavComponent } from './sidenav/sidenav.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SidenavComponent,
+    DashboardComponent,
   ],
   imports: [
     BrowserModule,
